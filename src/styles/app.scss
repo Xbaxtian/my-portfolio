@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './animated-background.scss';
+@import './base/variables.scss';
+@import './general.scss';
+
+@import './components/Banner.scss';
+@import './components/Columns.scss';
 @import './components/TechIcon.scss';

@@ -1,0 +1,15 @@
+.columns {
+  border: 1px solid $border-blue;
+  border-radius: 8px;
+  display: flex;
+
+  &__column {
+    border-right: 1px solid $border-blue;
+    width: 50%;
+    padding: 72px 44px;
+
+    &:last-child {
+      border: none;
+    }
+  }
+}

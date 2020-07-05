@@ -8,9 +8,10 @@ module.exports = {
       sans: ['Montserrat'],
     },
     colors: {
+      ...colors,
       blue: {
         ...colors.blue,
-        '900': '#223f6a',
+        '900': '#152430',
       },
     },
   },
