@@ -4,7 +4,7 @@ import backend from '../images/backend.svg';
 
 const Columns = () => {
   return (
-    <div className="columns mx-32">
+    <div className="columns">
       <div className="columns__column">
         <img src={frontend} alt="frontend icon" className="w-20 mx-auto mb-4" />
 
