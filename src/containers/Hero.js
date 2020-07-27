@@ -9,7 +9,7 @@ const Hero = () => {
         Hello, I'm <span className="font-bold">Sebastian Postigo</span>
       </h1>
       <p className="text-center font-sans font-light text-xl mb-4">
-        I'm a Software Engeneer based in Perú, passionate for code.
+        I'm a Software Engineer based in Perú, passionate for code.
       </p>
       <Link
         to="/projects"
