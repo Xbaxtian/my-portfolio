@@ -1,5 +1,6 @@
 body {
-  @apply text-blue-900;
+  @apply text-gray-700 font-medium leading-6;
+  font-size: toRem(18px);
 }
 
 .section {
@@ -7,18 +8,5 @@ body {
 }
 
 .title {
-  font-size: 2.5rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-align: center;
-  @apply mb-10;
-
-  &::after {
-    content: '';
-    width: 90px;
-    height: 4px;
-    display: block;
-    margin: auto;
-    @apply bg-blue-900;
-  }
+  @apply font-semibold text-2xl leading-relaxed text-gray-900;
 }

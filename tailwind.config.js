@@ -13,6 +13,14 @@ module.exports = {
         ...colors.blue,
         '900': '#152430',
       },
+      gray: {
+        ...colors.gray,
+        '200': '#E0E0E0', //label
+        '300': '#C4C4C4',
+        '700': '#828282', // Text
+        '800': '#4F4F4F', // Subtitle
+        '900': '#333333', //Title
+      },
     },
   },
   variants: {},
