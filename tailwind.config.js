@@ -22,6 +22,9 @@ module.exports = {
         '900': '#333333', //Title
       },
     },
+    borderRadius: {
+      default: '12px',
+    },
   },
   variants: {},
   plugins: [],
