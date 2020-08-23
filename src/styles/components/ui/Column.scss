@@ -1,0 +1,20 @@
+.column {
+  display: inline-block;
+  width: 100%;
+
+  &-rigth {
+    @screen md {
+      .column {
+        @apply w-1/4 px-10px;
+      }
+    }
+  }
+
+  &-left {
+    @screen md {
+      .column {
+        @apply w-3/4 px-10px;
+      }
+    }
+  }
+}
