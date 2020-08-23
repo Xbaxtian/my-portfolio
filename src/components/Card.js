@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Card = ({children, className, ...others}) => {
+const Card = ({ children, className, ...others }) => {
   return (
-    <div className={`max-w-sm rounded overflow-hidden shadow-lg p-5 bg-white ${className}`} {...others}>
+    <div
+      className={`rounded overflow-hidden shadow-lg p-5 bg-white inline-block ${className}`}
+      {...others}
+    >
       {children}
     </div>
   );

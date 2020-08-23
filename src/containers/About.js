@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section className="section bg-gray-100">
       <div className="container mx-auto text-justify">
-        <Card>
+        <Card className="max-w-sm">
           <Profile />
           <div className="mt-6">
             <h2 className="title">Sebastian Postigo</h2>
